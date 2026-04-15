@@ -1,0 +1,88 @@
+.dashboard-page {
+    max-width: 600px;
+    margin: 40px auto;
+    font-family: Arial, sans-serif;
+  }
+  
+  .dashboard-title {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .task-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .task-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  .task-form button {
+    padding: 10px 15px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .task-form button:hover {
+    background-color: #357abd;
+  }
+  
+  .task-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .task-item {
+    background: #f9f9f9;
+    padding: 12px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .task-text {
+    cursor: pointer;
+  }
+  
+  .task-buttons {
+    display: flex;
+    gap: 8px;
+  }
+  
+  .task-buttons button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .task-buttons button:nth-child(1) {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .task-buttons button:nth-child(2) {
+    background-color: #ffc107;
+  }
+  
+  .task-buttons button:nth-child(3) {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .edit-input {
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
